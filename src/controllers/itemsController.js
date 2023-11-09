@@ -60,7 +60,7 @@ const getItemDetails = async (req, res) => {
       picture: itemResponse.data.pictures[0].url,
       condition: itemResponse.data.condition,
       free_shipping: itemResponse.data.shipping.free_shipping,
-      sold_quantity: itemResponse.data.sold_quantity,
+      sold_quantity: itemResponse.data.sold_quantity || 1,
       description: descriptionResponse.data.plain_text,
     };
 
