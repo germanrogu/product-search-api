@@ -10,31 +10,10 @@ Api para el manejo de productos
 
 1. Clona el repositorio:
 
-   ```bash
-   git clone https://github.com/germanrogu/product-search-api.git
-   cd tu-repo
-   ```
-
-Mis disculpas por la confusión. Aquí está el contenido completo de la plantilla del archivo README en formato Markdown para que puedas copiarlo y pegarlo en un archivo llamado `README.md` en la raíz de tu proyecto:
-
-````markdown
-# Product Search API
-
-Api para el manejo de productos
-
-## Requisitos
-
-- Node.js y npm
-
-## Configuración
-
-1. Clona el repositorio:
-
-   ```bash
-    git clone https://github.com/germanrogu/product-search-api.git
-    cd product-search-api
-   ```
-````
+```bash
+  git clone https://github.com/germanrogu/product-search-api.git
+  cd product-search-api
+```
 
 2. Instala las dependencias:
 
@@ -50,14 +29,10 @@ Api para el manejo de productos
 
 4. Accede a la aplicación en [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## Uso
-
-Describe cómo usar tu aplicación o biblioteca. Proporciona ejemplos de código si es necesario.
-
 ## Rutas
 
-- `/api/items?q=:query`: Descripción de lo que hace esta ruta.
-- `/api/items/:id`: Descripción de lo que hace esta ruta.
+- `/api/items?q=:query`
+- `/api/items/:id`
 
 ## Contribución
 
