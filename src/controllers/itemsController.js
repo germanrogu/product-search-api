@@ -54,7 +54,7 @@ const getItemDetails = async (req, res) => {
       title: itemResponse.data.title,
       price: {
         currency: itemResponse.data.currency_id,
-        amount: itemResponse.data.price,
+        amount: itemResponse.data.price * 0.0029,
         decimals: 0,
       },
       picture: itemResponse.data.pictures[0].url,
